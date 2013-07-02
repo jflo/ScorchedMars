@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>89F8A89E-B473-493B-AD34-4BCFEA3AC582</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Scorched One</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DC0BC068-3945-43D1-9530-8E2020FA6FAF</key>
+		<string>ssh://github.com/jflo/ScorchedMars.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Scorched One.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DC0BC068-3945-43D1-9530-8E2020FA6FAF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/jflo/ScorchedMars.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DC0BC068-3945-43D1-9530-8E2020FA6FAF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC0BC068-3945-43D1-9530-8E2020FA6FAF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ScorchedMars</string>
+		</dict>
+	</array>
+</dict>
+</plist>
