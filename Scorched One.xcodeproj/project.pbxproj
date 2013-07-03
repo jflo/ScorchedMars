@@ -26,6 +26,8 @@
 		027F800B176A9C2800C54CD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 027F8009176A9C2800C54CD2 /* InfoPlist.strings */; };
 		027F800D176A9C2800C54CD2 /* Scorched_OneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F800C176A9C2800C54CD2 /* Scorched_OneTests.m */; };
 		027F8017176A9E4400C54CD2 /* mortar.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F8016176A9DEC00C54CD2 /* mortar.png */; };
+		8FA6E94917849BB200C58646 /* TFPerlineNoiseKen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6E94817849BB200C58646 /* TFPerlineNoiseKen.m */; };
+		8FA6E94D17849C6C00C58646 /* TFPrimeNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6E94C17849C6C00C58646 /* TFPrimeNumbers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,10 @@
 		027F800A176A9C2800C54CD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		027F800C176A9C2800C54CD2 /* Scorched_OneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scorched_OneTests.m; sourceTree = "<group>"; };
 		027F8016176A9DEC00C54CD2 /* mortar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mortar.png; path = ../../../Downloads/mortar.png; sourceTree = "<group>"; };
+		8FA6E94717849BB200C58646 /* TFPerlineNoiseKen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFPerlineNoiseKen.h; path = Perlin/TFPerlineNoiseKen.h; sourceTree = "<group>"; };
+		8FA6E94817849BB200C58646 /* TFPerlineNoiseKen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFPerlineNoiseKen.m; path = Perlin/TFPerlineNoiseKen.m; sourceTree = "<group>"; };
+		8FA6E94B17849C6C00C58646 /* TFPrimeNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFPrimeNumbers.h; path = Perlin/TFPrimeNumbers.h; sourceTree = "<group>"; };
+		8FA6E94C17849C6C00C58646 /* TFPrimeNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFPrimeNumbers.m; path = Perlin/TFPrimeNumbers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,7 @@
 		027F7FDF176A9C2800C54CD2 /* Scorched One */ = {
 			isa = PBXGroup;
 			children = (
+				8FA6E94A17849BB600C58646 /* Perlin */,
 				027F8016176A9DEC00C54CD2 /* mortar.png */,
 				027F7FE8176A9C2800C54CD2 /* JFAppDelegate.h */,
 				027F7FE9176A9C2800C54CD2 /* JFAppDelegate.m */,
@@ -168,6 +175,17 @@
 				027F8009176A9C2800C54CD2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FA6E94A17849BB600C58646 /* Perlin */ = {
+			isa = PBXGroup;
+			children = (
+				8FA6E94B17849C6C00C58646 /* TFPrimeNumbers.h */,
+				8FA6E94C17849C6C00C58646 /* TFPrimeNumbers.m */,
+				8FA6E94717849BB200C58646 /* TFPerlineNoiseKen.h */,
+				8FA6E94817849BB200C58646 /* TFPerlineNoiseKen.m */,
+			);
+			name = Perlin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FA6E94917849BB200C58646 /* TFPerlineNoiseKen.m in Sources */,
 				027F7FEA176A9C2800C54CD2 /* JFAppDelegate.m in Sources */,
+				8FA6E94D17849C6C00C58646 /* TFPrimeNumbers.m in Sources */,
 				027F7FF3176A9C2800C54CD2 /* JFViewController.m in Sources */,
 				027F7FF6176A9C2800C54CD2 /* JFMyScene.m in Sources */,
 				027F7FE6176A9C2800C54CD2 /* main.m in Sources */,
